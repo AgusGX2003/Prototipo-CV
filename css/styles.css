@@ -1,0 +1,133 @@
+:root{
+    --governor-bay-50: #f1f4fd;
+    --governor-bay-100: #e0e7f9;
+    --governor-bay-200: #c7d5f6;
+    --governor-bay-300: #a1bbef;
+    --governor-bay-400: #7597e5;
+    --governor-bay-500: #5474dd;
+    --governor-bay-600: #3f58d1;
+    --governor-bay-700: #3646bf;
+    --governor-bay-800: #343ea4;
+    --governor-bay-900: #2c357c;
+    --governor-bay-950: #1f224c;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #c71f1f none;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+    background: var(--governor-bay-200);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--governor-bay-700);
+    border-radius: 10px;
+    border: 3px solid var(--governor-bay-900);
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.header{
+    color: #f5f5f5;
+    background-color: #343EA4;
+
+}
+
+.header-paragraph{
+    font-weight: bold;
+}
+.div{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    padding: 20px;
+}
+
+.extra{
+    background-color: var(--governor-bay-400);
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.info-container{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.education{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.education-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.education-title{
+    font-size: 48px;
+}
+.image{
+    width: 300px;
+    height: auto;
+}
+.experience-title{
+    font-size: 32px;
+    font-weight: bolder;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+
+.experience-secondary-title{
+    font-weight: lighter;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.experience-paragraph-xl{
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.footer{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-element{
+    padding: 5px;
+}
+
+.experience, .awards, .other, .footer{
+    margin-bottom: 15px;
+}
